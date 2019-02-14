@@ -6,11 +6,7 @@ const routes = require("./routes");
 
 // connecting to db
 mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/googlebooks",
-    {
-        useMongoClient: true
-    }
-);
+    process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
 
 //routes
 if(process.env.NODE_ENV === "production") {
@@ -27,3 +23,4 @@ app.use(routes);
 // server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT);
+

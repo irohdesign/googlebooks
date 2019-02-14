@@ -1,0 +1,52 @@
+/* navigation & top */
+.navList {
+    background: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navList a {
+    color: white;
+}
+
+#heroBox {
+    border: solid 2px #666;
+    margin: 40px auto;
+    padding: 60px 20px;
+    max-width: 1250px;
+    text-align: center;
+}
+
+#heroBox h1 {
+    margin: 20px auto 30px;
+    font-size: 60px;
+}
+
+/* search form */
+#searchContainer {
+    max-width: 1250px;
+    margin: 50px auto;
+    border: solid 2px #666;
+    padding: 10px;
+    position: relative;
+    min-height: 180px;
+}
+
+#searchContainer h5 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#searchContainer input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+#searchContainer button {
+    background: #666;
+    border: none;
+    color: white;
+    padding: 2px 60px;
+    border-radius: 5px;
+}
