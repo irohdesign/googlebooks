@@ -1,0 +1,23 @@
+{
+  "name": "googlebooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/irohdesign/googlebooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irohdesign/googlebooks/issues"
+  },
+  "homepage": "https://github.com/irohdesign/googlebooks#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
