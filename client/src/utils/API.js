@@ -8,3 +8,6 @@ export default {
         return axios.post("/api/books/", bookData);
     }
 };
+
+// API Key
+// AIzaSyBG_sGuNRGKTP8NY6oCkXRohp7EyyCjXBo
