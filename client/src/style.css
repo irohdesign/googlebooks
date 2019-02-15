@@ -50,3 +50,15 @@
     padding: 2px 60px;
     border-radius: 5px;
 }
+
+/* results */
+
+.wrapper {
+    max-width: 1250px;
+    margin: 50px auto;
+}
+
+.thumbnail {
+    height: 250px;
+    width: 100%;
+}
