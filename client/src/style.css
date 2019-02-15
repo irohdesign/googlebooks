@@ -8,6 +8,11 @@
     color: white;
 }
 
+.navList li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
 #heroBox {
     border: solid 2px #666;
     margin: 40px auto;
